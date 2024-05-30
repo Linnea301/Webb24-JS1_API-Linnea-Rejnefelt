@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slutuppgift JavaScript 1 - Webb24</title>
 
     <link rel="stylesheet" href="CSS/style.css">
-</head>
+</header>
 <body>
 
-    <head>
+    <header>
         <h1>Slutuppgift JavaScript 1 - Webb24</h1>
         <h2>Linnea Rejnefelt</h2>
-    </head>
+    </header>
 
     <main>
-        <button onclick="fetchUserData()">New User</button>
+        <button onclick="fetchUserData()" id="btn">New User</button>
         <img id="user-picture" src="" alt="">
-        <p id="user-firstName"></p>
-        <p id="user-lastName"></p>
-        <p id="user-gender"></p>
-        <p id="user-email"></p>
-        <p id="user-phone"></p>
+
+        <p id="user-info">
+            <p id="user-firstName"></p>
+            <p id="user-lastName"></p>
+            <p id="user-gender"></p>
+            <p id="user-email"></p>
+            <p id="user-phone"></p>
+        </p>
     </main>
 
    
